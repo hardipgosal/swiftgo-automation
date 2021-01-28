@@ -4,6 +4,7 @@
 /compiler.xml
 /jarRepositories.xml
 /misc.xml
+/swiftgo-automation.iml
 *.iml
 *.txt
 
