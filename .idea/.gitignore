@@ -1,10 +1,10 @@
 # Default ignored files
 /shelf/
+*.iml
 /workspace.xml
 /compiler.xml
 /jarRepositories.xml
 /misc.xml
+/vcs.xml
 /swiftgo-automation.iml
-*.iml
 *.txt
-
