@@ -13,7 +13,7 @@ public class BaseIT {
     public void setUp() {
         System.setProperty("webdriver.chrome.driver", "resources/chromedriver.exe");
         driver = new ChromeDriver();
-        driver.get("BaseURL");
+        driver.get(BaseURL);
 
         //Maximize the window
         driver.manage().window().maximize();
@@ -27,7 +27,6 @@ public class BaseIT {
 
         System.out.println(driver.getTitle());
         driver.quit();
-
     }
 
     public static void main(String[] args) {
