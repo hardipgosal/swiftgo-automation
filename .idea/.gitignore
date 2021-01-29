@@ -8,4 +8,8 @@
 /vcs.xml
 /swiftgo-automation.iml
 /uiDesigner.xml
+*.xml
 *.txt
+*/bin/library.jar
+bin/
+resources/
