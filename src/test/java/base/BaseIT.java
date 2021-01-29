@@ -19,9 +19,4 @@ public class BaseIT {
 
         driver.quit();
     }
-
-    public static void main(String[] args) {
-        BaseIT test = new BaseIT();
-        test.setUp();
-    }
 }
