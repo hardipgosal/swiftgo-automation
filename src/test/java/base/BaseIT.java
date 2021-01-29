@@ -18,12 +18,12 @@ public class BaseIT {
         //Maximize the window
         driver.manage().window().maximize();
 
+        //TODO!! Add screen sizes
         //Fullscreen mode
-        driver.manage().window().fullscreen();
-
+        //driver.manage().window().fullscreen();
         //Specific width (show Chrome iPhoneX emulator)
-        Dimension size = new Dimension(375, 812);
-        driver.manage().window().setSize(size);
+        //Dimension size = new Dimension(375, 812);
+        //driver.manage().window().setSize(size);
 
         System.out.println(driver.getTitle());
         driver.quit();
