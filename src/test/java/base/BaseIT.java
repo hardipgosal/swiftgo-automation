@@ -1,13 +1,12 @@
 package base;
 
-import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class BaseIT {
 
     private WebDriver driver;
-    private String BaseURL = "https://www.swiftgo.co.uk/";
+    private final String BaseURL = "https://www.swiftgo.co.uk/";
 
 
     public void setUp() {
@@ -18,14 +17,6 @@ public class BaseIT {
         //Maximize the window
         driver.manage().window().maximize();
 
-        //TODO!! Add screen sizes
-        //Fullscreen mode
-        //driver.manage().window().fullscreen();
-        //Specific width (show Chrome iPhoneX emulator)
-        //Dimension size = new Dimension(375, 812);
-        //driver.manage().window().setSize(size);
-
-        System.out.println(driver.getTitle());
         driver.quit();
     }
 
